@@ -2,7 +2,7 @@ from subprocess import call
 
 content = '''\
 #! /bin/bash
-mv ./dummy_script ./temp 
+mv ./dummy_script.py ./temp 
 touch ./script
 echo "Hello" > ./script
 cat script
